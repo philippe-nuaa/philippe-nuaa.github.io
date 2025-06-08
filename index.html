@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Boilerplate of Hux Blog"
+description: "天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。"
 ---
 
 {% for post in paginator.posts %}
@@ -15,7 +15,11 @@ description: "Boilerplate of Hux Blog"
         </h3>
         {% endif %}
         <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
             {{ post.content | strip_html | truncate:200 }}
+            {% endif %}
         </div>
     </a>
     <p class="post-meta">
