@@ -1,8 +1,8 @@
 {
-    "name": "hux-blog",
-    "title": "Hux Blog",
+    "name": "huliang-blog",
+    "title": "HuLiang Blog",
     "version": "1.8.2",
-    "homepage": "http://huxpro.github.io",
+    "homepage": "http://philippe-nuaa.github.io",
     "author": "Hux",
     "devDependencies": {
         "grunt": "~0.4.5",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Huxpro/huxpro.github.io"
+        "url": "https://github.com/philippe-nuaa/philippe-nuaa.github.io"
     },
     "scripts": {
         "preview": "cd _site; python -m SimpleHTTPServer 8020",
