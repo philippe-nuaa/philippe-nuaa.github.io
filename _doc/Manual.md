@@ -1,4 +1,4 @@
-Hux Blog User Manual
+HuliangBlog User Manual
 ====================
 
 * Basics
@@ -53,8 +53,8 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
+title: HuliangBlog             # title of your website
+SEOTitle: HuliangBlog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
@@ -134,7 +134,7 @@ Etc.
 # Sidebar settings
 sidebar: true   # default true
 sidebar-about-description: "your description here"
-sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: /img/avatar-huliang.png     # use absolute URL.
 ```
 
 Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* are turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
@@ -242,7 +242,7 @@ Just checkout the code offered by Google/Baidu, and copy paste here, all the res
 ### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“HuliangBlog”** but I want the title shows in search engine is **“黄玄的博客 | HuliangBlog”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 

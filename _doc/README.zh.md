@@ -1,4 +1,4 @@
-# Hux blog 模板
+# Huliangblog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
 
@@ -79,8 +79,8 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: HuliangBlog             # 你的博客网站标题
+SEOTitle: HuliangBlog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
@@ -131,7 +131,7 @@ rake post title="Hello 2015" subtitle="Hello World, Hello Blog"
 # Sidebar settings
 sidebar: true  #添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-hux.jpg     #你的大头贴，请使用绝对地址.
+sidebar-avatar: /img/avatar-huliang.png     #你的大头贴，请使用绝对地址.
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
@@ -251,7 +251,7 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 #### SEO Title
 
-我的博客标题是 **“Hux Blog”** 但是我想要在搜索的时候显示 **“黄玄的博客 | Hux Blog”** ，这个就需要SEO Title来定义了。
+我的博客标题是 **“HuliangBlog”** 但是我想要在搜索的时候显示 **“黄玄的博客 | HuliangBlog”** ，这个就需要SEO Title来定义了。
 
 其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
@@ -261,6 +261,3 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 2. 感谢[@BrucZhaoR](https://github.com/BruceZhaoR)的中文翻译 
 
 3. 感谢 Jekyll、Github Pages 和 Bootstrap!
-
-
-
